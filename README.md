@@ -66,5 +66,9 @@ export default AlphabeticAll;
     <li>handleCheck: A function to handle the checking and unchecking of individual checkboxes.</li>
 <li>handleSelectAll: A function to handle the checking and unchecking of the "select all" checkbox.</li>
 </ul>
+<p>Once its done its look like below image will load</p>
 
+![checkboxeslist](https://github.com/Mmaheshbabu123/ifo-alphabetic-checkBoxes-list-component/assets/29708637/0a9140bc-b94a-4ed6-83fe-a74d1a43cd4d)
+
+<p>Thanks for downloading package </p>
 
