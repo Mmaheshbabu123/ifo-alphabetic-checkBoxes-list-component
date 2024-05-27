@@ -6,6 +6,14 @@
   "scripts": {
     "build": "webpack"
   },
+  "keywords": [
+    "npm",
+    "package",
+    "keywords",
+    "example",
+    "ifo",
+    "checkboxes list"
+  ],
   "author": "mahesh",
   "license": "ISC",
   "devDependencies": {
