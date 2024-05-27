@@ -1,0 +1,86 @@
+.cardHeader
+{
+  font-family: "Sofia pro regular";
+  /* font-size: var(--font-size-20px); */
+  line-height: 1.875rem;
+  color:  #475969 ;
+  font-weight: normal;
+  background-color: #4759690D;
+}
+.cardBody
+{
+  min-height: 2rem;
+  font-family: "Sofia pro Light";
+  color:  #475969 ;
+  max-height: 8rem;
+  overflow: auto;
+}
+
+.FilterButton
+{
+  background-color: #FFFFFF !important;
+  margin: 0.2rem 0.2rem;
+  border: none;
+  /* font-size: var(--font-size-18px); */
+  line-height: 1.4375rem;
+  font-family: "Sofia pro regular";
+  color: #475969;
+}
+.FilterButton:nth-child(1),
+.FilterCategory .cardTitle .FilterButton:nth-child(1)
+{
+  margin: 0.2rem 0rem !important;
+}
+.button:focus
+{
+  background: #475969;
+}
+.button:active
+{
+  background: #475969;
+}
+.cardTitle .FilterButton:disabled
+{
+  color:#47596966 !important;
+  font-family: "Sofia pro regular";
+  /* font-size: var(--font-size-18px); */
+  line-height: 1.4375rem;
+  font-weight: normal;
+}
+.FilterCategory .cardTitle .FilterButton
+{
+    margin:0.2rem 0.5rem !important;
+}
+.Checkbox__alignment input[type="checkbox"]
+{
+  position: relative;
+  top: 3px;
+}
+@media screen and (min-width:0px) and (max-width:1399px)
+{
+  .FilterButton,
+  .FilterCategory .cardTitle .FilterButton
+  {
+    width: 53px;
+    text-align: center;
+    margin: 0.2rem 0rem !important;
+  }
+}
+.FilterButtonWikionActive_1
+{
+  background-color: #475969 !important;
+  color: #FFFFFFB3 !important;
+  border-radius: 3px !important;
+}
+.filter__checkbox,
+.filter__checkbox:checked,
+.checkbox--blue .form_check_input:checked,
+.Createtodo__checkbox .form_check_input:checked,
+.filter__checkbox .form_check_input:checked[type="checkbox"],
+.CreateSprint--selectTodo .form_check_input:checked[type="checkbox"],
+.checkbox-blue .form_check_input:checked[type="checkbox"] {
+  background-color: var(--color-blue) !important;
+  border-color: var(--color-blue) !important;
+  width: 1em;
+  height: 1em;
+}
