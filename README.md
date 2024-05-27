@@ -58,4 +58,13 @@ const AlphabeticAll = () => {
 
 export default AlphabeticAll;
 ```
+#Explanation
+<ul>
+    <li>items: An array of objects, each representing a checkbox with a value and label.</li>
+    <li>isAllSelected: A boolean indicating whether all checkboxes are selected.</li>
+   <li>selectIds: An array of selected checkbox ids.</li>
+    <li>handleCheck: A function to handle the checking and unchecking of individual checkboxes.</li>
+<li>handleSelectAll: A function to handle the checking and unchecking of the "select all" checkbox.</li>
+</ul>
+
 
