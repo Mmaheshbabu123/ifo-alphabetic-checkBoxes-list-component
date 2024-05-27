@@ -1,6 +1,6 @@
 {
   "name": "ifo-alphabetic-checkboxes-list-component",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "small basic components show checkboxes in alphabetical order.",
   "main": "./build/index.js",
   "scripts": {
